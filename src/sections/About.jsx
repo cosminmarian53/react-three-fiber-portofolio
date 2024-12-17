@@ -10,7 +10,7 @@ const About = () => {
         <section className="c-space my-20">
             <div className="grid xl:grid-cols-3 xl:grid-rows-3 md:grid-cols-2 grid-cols-1 gap-5 h-full">
 
-                
+
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
                         <img src={avatar} className="w-full sm:h-[276px] h-fit object-contain" alt="grid1"/>
@@ -58,7 +58,11 @@ const About = () => {
                             <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
                             <p className="grid-subtext">I&apos;m based in Romania and open to remote work
                                 worldwide.</p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+                            <a href="https://drive.google.com/file/d/1OQguSwePN59bMSY-IEYlMihVqQml8Xvt/view"
+                               target="_blank">
+                                <Button name="Check Out My CV!" isBeam containerClass="w-full mt-10"/>
+                            </a>
+
                         </div>
                     </div>
                 </div>
