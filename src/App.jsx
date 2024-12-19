@@ -4,6 +4,7 @@ import About from "./sections/About.jsx";
 import Projects from "./sections/Projects.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import Experience from "./sections/Experience.jsx";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             <Hero/>
             <About/>
             <Projects/>
+            <Experience/>
             <Contact/>
             <Footer/>
         </main>

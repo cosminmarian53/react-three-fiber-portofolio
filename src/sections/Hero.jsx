@@ -14,6 +14,7 @@ import SolanaLogo from "../components/SolanaLogo.jsx";
 import JavascriptLogo from "../components/JavascriptLogo.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import brand from "../assets/brand-logo.png";
 
 const Hero = () => {
     // const controls = useControls(
@@ -61,11 +62,11 @@ const Hero = () => {
 
     const sizes = calculateSizes(isSmall, isMobile, isTablet);
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
+        <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-                <p className="sm:text-3xl text-xl text-white text-center font-generalsans">Hi, I'm Cosmin! <span
+                <p className="sm:text-3xl text-xl text-white text-center font-generalsans">Hello! I'm Cosmin <span
                     className="waving-hand">👋</span></p>
-                <p className="hero_tag text-gray_gradient">Building the future!</p>
+                <p className="hero_tag text-gray_gradient">Building the future today!</p>
             </div>
 
             <div className="w-full h-full absolute inset-0">

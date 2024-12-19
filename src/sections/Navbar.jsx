@@ -33,7 +33,7 @@ const Navbar = () => {
               src={brand}
               alt="brand"
               className={`mt-0 ${
-                isMobile ? "w-[50px] h-[50px]" : "w-[72px] h-[72px]"
+                isMobile ? "w-[30px] h-[30px]" : "w-[62px] h-[62px]"
               }`}
             />
           </a>
