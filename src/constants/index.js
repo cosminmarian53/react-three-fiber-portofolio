@@ -200,31 +200,34 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 
 export const workExperiences = [
-    {
-        id: 1,
-        name: 'SkyTrade',
-        pos: 'Blockchain and Full-Stack Developer Intern',
-        duration: 'Nov 2024 - Present',
-        title: "At SkyTrade, I work on blockchain solutions, including a dApp that mints compressed NFTs and facilitates cross-chain bridging. My development stack includes TypeScript, Next.js, Tailwind CSS, and Solidity, which I leverage to ensure efficient cross-chain token transfers and robust decentralized applications.",
-        icon: skytrade,
-        animation: 'clapping',
-    },
-    {
-        id: 2,
-        name: 'IBM',
-        pos: 'React.js Internship Trainee',
-        duration: 'July 2024 - Aug 2024',
-        title: "At IBM, I led the development of \"Aliens Vs. Robots,\" a React-based interactive game. I collaborated with a 5-member team to enhance UI, ensure smooth project delivery, and document processes. My focus was on streamlining progress and solving roadblocks during weekly sprint",
-        icon: ibm,
-        animation: 'salute',
-    },
-    {
-        id: 3,
-        name: 'Digital Nation',
-        pos: 'Web Development Advanced Apprenticeship',
-        duration: 'Aug 2023 - Jan 2024',
-        title: "Through this apprenticeship, I mastered advanced web development techniques, including JavaScript and responsive design. I also gained valuable soft skills like teamwork, problem-solving, and adaptability.",
-        icon: digitalNation,
-        animation: 'victory',
-    },
+  {
+    id: 1,
+    name: "SkyTrade",
+    pos: "Blockchain Full Stack Engineer Contributor",
+    duration: "Nov 2024 - Feb 2025",
+    title:
+      "At SkyTrade, I worked on blockchain solutions, including a dApp that mints compressed NFTs and facilitates cross-chain bridging, as well as a DEX using the OpenBookDEX protocol and Jupiter APIs like SwapAPI and LimitOrderAPI. My development stack includes TypeScript, Next.js, Tailwind CSS, and Solidity, which I leverage to ensure efficient cross-chain token transfers and robust decentralized applications.",
+    icon: skytrade,
+    animation: "clapping",
+  },
+  {
+    id: 2,
+    name: "IBM",
+    pos: "React.js Internship Trainee",
+    duration: "July 2024 - Aug 2024",
+    title:
+      'At IBM, I led the development of "Aliens Vs. Robots," a React-based interactive game. I collaborated with a 5-member team to enhance UI, ensure smooth project delivery, and document processes. My focus was on streamlining progress and solving roadblocks during weekly sprint',
+    icon: ibm,
+    animation: "salute",
+  },
+  {
+    id: 3,
+    name: "Digital Nation",
+    pos: "Web Development Advanced Apprenticeship",
+    duration: "Aug 2023 - Jan 2024",
+    title:
+      "Through this apprenticeship, I mastered advanced web development techniques, including JavaScript and responsive design. I also gained valuable soft skills like teamwork, problem-solving, and adaptability.",
+    icon: digitalNation,
+    animation: "victory",
+  },
 ];
