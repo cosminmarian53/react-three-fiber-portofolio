@@ -82,7 +82,7 @@ const About = () => {
                   I&apos;m based in Romania and open to remote work worldwide.
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1w9cZn4F35Zo5fEqGfJjIxvaeHt3pArSM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1IaQMI0ggVMk4E1dFeOpxrf29NZOafrjZ/view?usp=drive_link"
                   target="_blank"
                 >
                   <Button
